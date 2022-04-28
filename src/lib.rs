@@ -12,6 +12,7 @@ pub struct Bmp<'a> {
     body_currentPoint: u32,
 }
 
+//エラー
 #[derive(Debug)]
 pub enum BmpErr {
     FileNotFound,
